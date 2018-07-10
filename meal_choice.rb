@@ -9,9 +9,22 @@ def breakfast (food = "frosted flakes")
   "9 am is a good time for breakfast."
 end 
 
+def lunch (food = "grilled cheese")
+  puts "Afternnon is the best time for #{food}."
+  "12 pm is a good time for lunch."
+end
+
+def dinner (food = "salmon")
+  puts "Evening is a good time for #{food}."
+  "6 pm is a good time for dinner."
+end
+
+breakfast(donuts)
 breakfast
-
-
+lunch(sandwich)
+lunch
+dinner(calzone)
+dinner
 
 
 
