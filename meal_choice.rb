@@ -19,11 +19,11 @@ def dinner (food = "salmon")
   "6 pm is a good time for dinner."
 end
 
-breakfast(donuts)
+breakfast("donuts")
 breakfast
-lunch(sandwich)
+lunch("sandwich")
 lunch
-dinner(calzone)
+dinner("calzone")
 dinner
 
 
